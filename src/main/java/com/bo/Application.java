@@ -19,9 +19,6 @@ import javax.sql.DataSource;
 @EnableAutoConfiguration
 public class Application {
 
-    public Application() {
-    }
-
     @Bean
     public DataSource dataSource() {
         BasicDataSource dataSource = new BasicDataSource();
